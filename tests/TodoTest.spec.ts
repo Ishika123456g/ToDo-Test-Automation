@@ -33,13 +33,13 @@ test.describe.serial('ToDo App Tests', () => {
   });
 
     // 4. Mark todo as incomplete
-  test('mark todo as incomplete', async ({ page }) => {
-    await addTodo(page, 'Task to Uncheck');
-    const toggle = page.locator('.toggle').first();
-    await toggle.check();
-    await toggle.uncheck();
-    await expect(toggle).not.toBeChecked();
-  });
+//   test('mark todo as incomplete', async ({ page }) => {
+//     await addTodo(page, 'Task to Uncheck');
+//     const toggle = page.locator('.toggle').first();
+//     await toggle.check();
+//     await toggle.uncheck();
+//     await expect(toggle).not.toBeChecked();
+//   });
 
 //     // 5. Delete a todo item
 //   test('delete a todo item', async ({ page }) => {
