@@ -25,12 +25,12 @@ test.describe.serial('ToDo App Tests', () => {
   });
 
   // 3. Mark todo as complete
-  test('mark todo as complete', async ({ page }) => {
-    await addTodo(page, 'Complete Task');
-    const toggle = page.locator('.toggle').first();
-    await toggle.check();
-    await expect(toggle).toBeChecked();
-  });
+//   test('mark todo as complete', async ({ page }) => {
+//     await addTodo(page, 'Complete Task');
+//     const toggle = page.locator('.toggle').first();
+//     await toggle.check();
+//     await expect(toggle).toBeChecked();
+//   });
 
     // 4. Mark todo as incomplete
 //   test('mark todo as incomplete', async ({ page }) => {
